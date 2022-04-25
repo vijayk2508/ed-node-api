@@ -1,9 +1,11 @@
 {
   "version": "24.1.0",
+  "s-maxage": "0",
+  "Origin Control": "Off",
   "builds": [
     {
       "src": "./public/index.js",
-      "use": "avercel/node"
+      "use": "@vercel/node"
     }
   ],
   "routes": [

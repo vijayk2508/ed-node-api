@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/', async (req, res) => {
+router.get('/', async (_req, res) => {
   try {
     return res.json({
       status: 200,
