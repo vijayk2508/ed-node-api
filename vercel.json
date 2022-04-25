@@ -1,6 +1,5 @@
 {
   "version": "24.1.0",
-  "Origin Control": "Off",
   "builds": [
     {
       "src": "./public/index.js",
