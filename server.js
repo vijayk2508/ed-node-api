@@ -1,6 +1,11 @@
+const path = require('path');
+
 const express = require("express");
 const app = express();
+
 const product = require("./api/product");
+
+app.use('/static', express.static(path.join(__dirname + '/public')));
 
 app.use(express.json({ extended: false }));
 app.use("/api/product", product);
